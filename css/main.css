@@ -1,0 +1,131 @@
+*,
+*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url('../image/bacground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{  
+    filter: blur(2px);
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.main{
+    width: 100%;
+    height: 30vh;
+}
+.main__top{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    opacity: 0.8;
+    box-shadow: 0 3px 3px rgb(0 ,0, 0, 0.2);
+    text-transform: capitalize  ;
+}
+.line{
+    margin-top: 15px;
+    width: 900px;
+    height: 1.5px;
+    border-radius: 3px;
+    background-color: rgb(100, 96, 96);
+}
+.dynamic{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: bisque;
+}
+.dynamic__region{
+    font-size: 29px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: yellowgreen;
+    text-transform: capitalize  ;
+
+}
+.ttl{
+    font-size: 22px;
+    padding-bottom: -20px;
+    color: rgb(171, 171, 171);
+}
+#region{
+    font-size: 22px;
+    font-weight: 600;
+}
+.center{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.center__text{
+    margin-right: 60px;
+    font-size: 25px;
+   
+    color: yellowgreen;
+}
+#select{
+    border-radius:10px;
+    font-size: 21px;
+    color: azure;
+    background-color:rgb(66, 64, 64);
+}
+.dynamic__calendar{
+    color: yellowgreen;
+}
+.calendar {
+    display: flex;
+}
+.calendar_img{
+    width: 22px;
+    height: 22px;
+    margin-right:25px ;
+    cursor: pointer;
+}
+.card {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cards{
+    width: 200px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 10px 100px 10px rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card__image{
+    width: 150px;
+    height: 150px;
+    
+}
+.text{
+    font-size: 24px;
+    color: yellowgreen;
+}
